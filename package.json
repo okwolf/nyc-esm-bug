@@ -1,0 +1,14 @@
+{
+  "name": "nyc-esm-bug",
+  "version": "0.0.1",
+  "private": true,
+  "main": "index.js",
+  "devDependencies": {
+    "@std/esm": "^0.17.1",
+    "nyc": "^11.3.0"
+  },
+  "scripts": {
+    "format": "npx prettier --write src/**/*.js",
+    "test": "nyc node src"
+  }
+}
