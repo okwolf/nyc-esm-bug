@@ -13,7 +13,6 @@
   },
   "scripts": {
     "format": "npx prettier --write src/**/*.js",
-    "start": "node -r @std/esm src",
-    "test": "nyc --require @std/esm npm start"
+    "test": "nyc --require @std/esm node src"
   }
 }
