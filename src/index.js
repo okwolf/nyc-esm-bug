@@ -1,5 +1,4 @@
-import cjs from './cjs/main';
-import esm from './esm/main';
+require("./cjs/main")();
 
-cjs();
-esm();
+require = require("@std/esm")(module);
+require("./esm/main").default();
