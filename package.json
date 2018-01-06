@@ -7,10 +7,7 @@
     "@std/esm": "^0.19.1",
     "nyc": "^11.4.1"
   },
-  "@std/esm": {
-    "esm": "js",
-    "cjs": true
-  },
+  "@std/esm": "cjs",
   "scripts": {
     "format": "npx prettier --write src/**/*.js",
     "test": "nyc --require @std/esm node src"
