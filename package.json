@@ -4,7 +4,7 @@
   "private": true,
   "main": "index.js",
   "devDependencies": {
-    "@std/esm": "^0.19.1",
+    "@std/esm": "^0.18.0",
     "nyc": "^11.4.1"
   },
   "@std/esm": "cjs",
